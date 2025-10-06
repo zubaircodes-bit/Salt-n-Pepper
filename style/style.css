@@ -203,54 +203,53 @@ nav>button {
 }
 
 /* Express Franchise Ended */
-/* Responsive styles */
-@media (max-width: 768px) {
-
-    /* Navbar */
-    header {
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 1rem;
-    }
-
-    nav {
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 1rem;
-        width: 100%;
-    }
-
-    .main-logo {
-        width: 120px;
-        margin-bottom: 1rem;
-    }
-
-    nav>a,
-    nav>button {
-        width: 90%;
-        text-align: center;
-        margin: 0.5rem 0;
-        font-size: 1.6rem;
-    }
-
-    /* h1 tag in our-brands */
-    .our-brands>.main-head {
-        font-size: 2.2rem;
-        margin: 20px 0 0 0;
-    }
-
-    .futurak {
-        font-size: 2.8rem;
-    }
-
-    /* Franchise section */
-    .section-franchise {
-        padding: 2rem 1rem;
-        text-align: center;
-    }
-
-    .section-franchise .para {
-        font-size: 1.3rem;
-        margin: 10px 0;
-    }
+/* Village Franchise Started */
+.village {
+    margin-top: 70px;
 }
+
+.village-bg {
+    background-color: var(--bg-grey);
+    margin-top: 100px;
+}
+
+.para4 {
+    font-size: 1.6rem;
+    color: var(--white);
+    /* margin: 23px 0px; */
+}
+
+.city3 {
+    font-size: 2rem;
+    color: var(--red);
+}
+
+.get-direction-btn3 {
+    border: 1px solid #28a745 !important;
+    background-color: #28a745;
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.get-direction-btn3:hover {
+    border: 1px solid #28a745 !important;
+    background-color: transparent;
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.arrow-icon2 {
+    font-size: 1rem;
+    background-color: var(--white);
+    color: #28a745;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+/* Village Franchise Ended */
