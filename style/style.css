@@ -1,18 +1,18 @@
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 :root {
-  --black: #000000;
-  --white: #ffffff;
-  --red: #ed1c24;
-  --grey: #5c5959;
-  --bg-grey:#ffffff0f;
+    --black: #000000;
+    --white: #ffffff;
+    --red: #ed1c24;
+    --grey: #5c5959;
+    --bg-grey: #ffffff0f;
 }
 
 @font-face {
-  font-family: inter;
-  src: url("../assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf");
+    font-family: inter;
+    src: url("../assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf");
 }
 
 @font-face {
@@ -24,43 +24,49 @@ html {
     font-family: futurak;
     src: url("../assets/fonts/futurak.ttf");
 }
+
 @font-face {
     font-family: butler;
     src: url(../assets/fonts/butler/Butler_Webfont/Butler.woff2);
 }
+
 body {
-  font-family: inter;
+    font-family: inter;
 }
 
 /* navbar started */
 .main-logo {
-  width: 165px;
-}
-nav > a {
-  font-size: 1.8rem;
+    width: 165px;
 }
 
-nav > button {
-  font-size: 1.5rem;
+nav>a {
+    font-size: 1.8rem;
 }
+
+nav>button {
+    font-size: 1.5rem;
+}
+
 .franchise-btn {
-  border: 1px solid var(--white);
-  background-color: transparent;
-  color: var(--white);
-  padding: 15px 20px;
-  border-radius: 30px;
-  cursor: pointer;
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
 }
+
 .order-btn {
-  border: 0px ;
-  background-color: var(--red);
-  color: var(--white);
-  padding: 15px 20px;
-  border-radius: 30px;
-  cursor: pointer;
-  
+    border: 0px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+
 }
-.arrow-icon{
+
+.arrow-icon {
     font-size: 1.8rem;
     background-color: var(--white);
     color: var(--red);
@@ -71,72 +77,83 @@ nav > button {
 /* navbar ended */
 
 /* carousel started */
-.carousel{
+.carousel {
     width: 100%;
 }
+
 /* carousel ended */
 
 /* our-brands started */
-.our-brands > .main-head {
+.our-brands>.main-head {
     font-size: 4rem;
     font-family: apercu;
     font-weight: lighter;
     margin: 30px 0px 0px 0px;
 
 }
-.futurak{
+
+.futurak {
     font-family: futurak;
     font-size: 5rem;
 }
-.our-brands > .para {
+
+.our-brands>.para {
     font-size: 1.5rem;
     color: var(--gray);
     margin: 15px;
 }
-.brand-image{ 
+
+.brand-image {
     background-color: var(--white);
     border-radius: 10px;
     padding: 10px;
 }
-.brand-online-btn{
+
+.brand-online-btn {
     background-color: transparent;
     border: 1px solid var(--white);
     border-radius: 20px;
     padding: 10px 45px;
     color: var(--white);
 }
+
 /* our-brands ended */
 /* Restaurant Franchise Started */
-.section-franchise{
+.section-franchise {
     position: relative;
     background-color: var(--bg-grey);
     /* right : 20px */
 }
-.city{
+
+.city {
     /* font-family : appercu; */
     font-size: 1.5rem;
-    color : var(--red)
+    color: var(--red)
 }
-.futurak2{
+
+.futurak2 {
     font-family: futurak;
-    font-size:3rem;
+    font-size: 3rem;
 }
-.para2{
-    font-size : 1.5rem;
-    color : var(--grey);
-    margin : 10px 0px;
+
+.para2 {
+    font-size: 1.5rem;
+    color: var(--grey);
+    margin: 10px 0px;
 }
-.get-direction-btn{
-  border: 1px solid var(--white);
-  background-color: transparent;
-  color: var(--white);
-  padding: 15px 20px;
-  border-radius: 30px;
-  cursor: pointer;
-  font-size  :1.5rem;
-  font-weight  : bold;
+
+.get-direction-btn {
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-.franchise .arrow-icon{
+
+.franchise .arrow-icon {
     font-size: 1.5rem;
     background-color: var(--white);
     color: var(--red);
@@ -148,45 +165,52 @@ nav > button {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-  /* Navbar */
-  header {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 1rem;
-  }
-  nav {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 1rem;
-    width: 100%;
-  }
-  .main-logo {
-    width: 120px;
-    margin-bottom: 1rem;
-  }
-  nav > a, nav > button {
-    width: 90%;
-    text-align: center;
-    margin: 0.5rem 0;
-    font-size: 1.6rem;
-  }
 
-  /* h1 tag in our-brands */
-  .our-brands > .main-head {
-    font-size: 2.2rem;
-    margin: 20px 0 0 0;
-  }
-  .futurak {
-    font-size: 2.8rem;
-  }
+    /* Navbar */
+    header {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1rem;
+    }
 
-  /* Franchise section */
-  .section-franchise {
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-  .section-franchise .para {
-    font-size: 1.3rem;
-    margin: 10px 0;
-  }
+    nav {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .main-logo {
+        width: 120px;
+        margin-bottom: 1rem;
+    }
+
+    nav>a,
+    nav>button {
+        width: 90%;
+        text-align: center;
+        margin: 0.5rem 0;
+        font-size: 1.6rem;
+    }
+
+    /* h1 tag in our-brands */
+    .our-brands>.main-head {
+        font-size: 2.2rem;
+        margin: 20px 0 0 0;
+    }
+
+    .futurak {
+        font-size: 2.8rem;
+    }
+
+    /* Franchise section */
+    .section-franchise {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .section-franchise .para {
+        font-size: 1.3rem;
+        margin: 10px 0;
+    }
 }
