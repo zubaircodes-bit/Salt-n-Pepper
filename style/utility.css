@@ -16,6 +16,7 @@ body {
 
 .d-flex {
   display: flex;
+  flex-wrap : wrap;
 }
 .justify-center {
   justify-content: center;
@@ -110,4 +111,13 @@ body {
 .text-none {
     text-decoration: none;
     color: #ffffff;
+}
+.lighter{
+    font-weight: lighter;
+}
+.butler{
+    font-family: butler;
+}
+.main-highlight{
+    font-size: 5rem;
 }

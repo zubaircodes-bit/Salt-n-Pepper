@@ -7,6 +7,7 @@ html {
   --white: #ffffff;
   --red: #ed1c24;
   --grey: #1d1d1d;
+  --bg-grey:#ffffff0f;
 }
 
 @font-face {
@@ -16,14 +17,17 @@ html {
 
 @font-face {
     font-family: apercu;
-    src: url("../assets/fonts/Apercu/Apercu");
+    src: url(../assets/fonts/Apercu-Font/Apercu-regular.otf);
 }
 
 @font-face {
     font-family: futurak;
-    src: url("../assets/fonts/futurak/futurak.ttf");
+    src: url("../assets/fonts/futurak.ttf");
 }
-
+@font-face {
+    font-family: butler;
+    src: url(../assets/fonts/butler/Butler_Webfont/Butler.woff2);
+}
 body {
   font-family: inter;
 }
@@ -45,6 +49,7 @@ nav > button {
   color: var(--white);
   padding: 15px 20px;
   border-radius: 30px;
+  cursor: pointer;
 }
 .order-btn {
   border: 0px ;
@@ -52,13 +57,14 @@ nav > button {
   color: var(--white);
   padding: 15px 20px;
   border-radius: 30px;
+  cursor: pointer;
   
 }
 .arrow-icon{
     font-size: 1.8rem;
     background-color: var(--white);
     color: var(--red);
-    padding: 5px 5px;
+    padding: 5px 10px;
     border-radius: 20px;
 }
 
@@ -84,7 +90,7 @@ nav > button {
 }
 .our-brands > .para {
     font-size: 1.5rem;
-    color: #ffffffB3;
+    color: var(--gray);
     margin: 15px;
 }
 .brand-image{ 
@@ -100,3 +106,65 @@ nav > button {
     color: var(--white);
 }
 /* our-brands ended */
+/* Restaurant Franchise Started */
+.section-franchise{
+    position: relative;
+    background-color: var(--bg-grey);
+    /* right : 20px */
+}
+.section-franchise  .para {
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin: 15px;
+}
+.city{
+    font-famly : appercu;
+    font-size: 1.5rem;
+    color : var(--red)
+}
+/* Restaurant Franchise Ended */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Navbar */
+  header {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem;
+  }
+  nav {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem;
+    width: 100%;
+  }
+  .main-logo {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+  nav > a, nav > button {
+    width: 90%;
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 1.6rem;
+  }
+
+  /* h1 tag in our-brands */
+  .our-brands > .main-head {
+    font-size: 2.2rem;
+    margin: 20px 0 0 0;
+  }
+  .futurak {
+    font-size: 2.8rem;
+  }
+
+  /* Franchise section */
+  .section-franchise {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .section-franchise .para {
+    font-size: 1.3rem;
+    margin: 10px 0;
+  }
+}
