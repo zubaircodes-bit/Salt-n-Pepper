@@ -1,3 +1,12 @@
+/* Utility margin classes */
+.mb-3 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mt-3 {
+    margin-top: 1.5rem !important;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -161,8 +170,39 @@ nav>button {
     border-radius: 10px;
 }
 
-/* Restaurant Franchise Ended */
+.restaurant {
+    margin-bottom: 50px;
+}
 
+/* Restaurant Franchise Ended */
+/* Express Franchise Started */
+.city2 {
+    font-size: 1.2rem;
+    color: var(--red);
+}
+
+.para3 {
+    font-size: 1.4rem;
+    color: var(--white);
+    margin: 23px 0px;
+}
+
+.futurak3 {
+    font-family: futurak;
+    font-size: 2rem;
+}
+
+.get-direction-btn2 {
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+/* Express Franchise Ended */
 /* Responsive styles */
 @media (max-width: 768px) {
 
