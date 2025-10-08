@@ -131,13 +131,16 @@ nav>button {
 .section-franchise {
     position: relative;
     background-color: var(--bg-grey);
-    /* right : 20px */
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .city {
     /* font-family : appercu; */
     font-size: 1.5rem;
-    color: var(--red)
+    color: var(--red);
+    letter-spacing: 0.7em;
 }
 
 .futurak2 {
@@ -179,6 +182,7 @@ nav>button {
 .city2 {
     font-size: 1.2rem;
     color: var(--red);
+    letter-spacing: 0.7em;
 }
 
 .para3 {
@@ -211,6 +215,7 @@ nav>button {
 .village-bg {
     background-color: var(--bg-grey);
     margin-top: 100px;
+    padding-bottom: 40px;
 }
 
 .para4 {
@@ -221,6 +226,7 @@ nav>button {
 
 .city3 {
     font-size: 2rem;
+    letter-spacing: 0.7em;
     color: var(--red);
 }
 
@@ -253,3 +259,41 @@ nav>button {
 }
 
 /* Village Franchise Ended */
+/* Express Franchises New Started */
+.container {
+    margin: 50px auto;
+    padding: 5rem;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    color: var(--black);
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 1%;
+    cursor : pointer;
+}
+.container:hover {
+    margin: 50px auto;
+    padding: 5rem;
+    width: 350px;
+    background-color: #3a323249;
+    box-shadow: 0px 3px 10px rgb(250, 244, 244);
+    border-radius: 1em;
+    color: var(--white);
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 1%;
+    cursor : pointer;
+}
+
+
+.opening {
+    margin-top: 20px;
+    color: var(--red);
+    letter-spacing: 0.7em;
+}
+
+/* Express Franchises New Ended */

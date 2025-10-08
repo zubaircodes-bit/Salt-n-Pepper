@@ -38,6 +38,9 @@ body {
 .item-center {
     align-items: center;
 }
+.item-end {
+    align-items: flex-end;
+}
 
 .flex-wrap {
     flex-wrap: wrap;
@@ -204,4 +207,13 @@ body {
 
 .font-size5 {
     font-size: 5rem;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+.roman{
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-center{
+   align-content: center; 
 }
