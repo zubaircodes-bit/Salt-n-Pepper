@@ -271,9 +271,10 @@ nav>button {
     width: 400px;
     vertical-align: top;
     margin: 1%;
-    cursor : pointer;
-    
+    cursor: pointer;
+
 }
+
 .container:hover {
     margin: 50px auto;
     padding: 5rem;
@@ -284,7 +285,7 @@ nav>button {
     width: 400px;
     vertical-align: top;
     margin: 1%;
-    cursor : pointer;
+    cursor: pointer;
     border: 1px solid #28a745 !important;
     background-color: #28a745;
 }
@@ -298,23 +299,59 @@ nav>button {
 
 /* Express Franchises New Ended */
 /* Footer Started */
-.para5{
-padding-bottom: 24px;
-  padding-right: 0px;
-  text-align: left;
-  font-family: 'Apercu';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.7);
-  width: 370px;
-}  
-.margin-left{
+.para5 {
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    width: 370px;
+}
+
+.margin-left {
     margin-left: 40px;
 }
-footer  a{
+
+footer a {
     text-decoration: none;
 }
+
 /* Footer Ended */
+/* About us started */
+/* Intro started */
+.para6 {
+    padding-bottom: 24px;
+    padding-right: 0px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.para-7 {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    width: 50%;
+}
+.express{
+    margin:0px 0px 0px 500px;
+}
+
+/* Intro ended */
+/* ABout us ended */
